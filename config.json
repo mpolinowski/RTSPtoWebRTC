@@ -1,0 +1,32 @@
+{
+  "server": {
+    "http_port": ":8888",
+    "ice_servers": ["stun:stun.l.google.com:19302"]
+  },
+  "streams": {
+    "INSTAR_IN-6014_HD": {
+      "on_demand": true,
+      "url": "rtsp://admin:instar@192.168.2.47/11"
+    },
+    "MICRO": {
+      "on_demand": true,
+      "url": "rtsp://akaimp.duckdns.org/live/ch00_0"
+    },
+    "INSTAR_8015_FHD": {
+      "on_demand": true,
+      "url": "rtsp://admin:instar@192.168.2.77/11"
+    },
+    "INSTAR_9020_FHD": {
+      "on_demand": true,
+      "url": "rtsp://admin:instar@192.168.2.117/12"
+    },
+    "INSTAR_IN-7011_HD": {
+      "on_demand": true,
+      "url": "rtsp://admin:instar@192.168.2.63/11"
+    },
+    "H264_PCMALAW": {
+      "on_demand": true,
+      "url": "rtsp://admin:evro0811@89.21.77.183:33556/"
+    }
+  }
+}
